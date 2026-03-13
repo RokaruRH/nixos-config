@@ -17,7 +17,16 @@
     zellij
     starship
 
+    fzf
+    jq
+    ripgrep
+    zoxide
+    eza
+    fd
+    bat
+
     git
+    delta
     lazygit
 
     blender
