@@ -10,6 +10,8 @@ let
   home_dots_symlinks = {
     "fish/config.fish" = ".config/fish/config.fish";
     "fish/functions" = ".config/fish/functions";
+
+    "zed" = ".config/zed";
   };
 
   mkHomeDotsLinks = lib.mapAttrs' (src: target: {
