@@ -1,0 +1,36 @@
+[core]
+  editor = zed --wait
+  ignorecase = false
+  pager = delta
+
+[interactive]
+  diffFilter = delta --color-only
+
+[delta]
+  navigate = true
+  line-numbers = true
+  tabs = 2
+
+[merge]
+  conflictStyle = zdiff3
+
+[diff]
+  colorMoved = default
+
+[init]
+  defaultBranch = main
+
+[fetch]
+  prune = true
+
+[pull]
+  rebase = false
+  default = current
+
+[push]
+  default = current
+  autoSetupRemote = true
+
+[user]
+name = Mher
+email = mhergrigur@gmail.com

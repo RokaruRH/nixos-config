@@ -13,6 +13,7 @@ let
 
     "zed" = ".config/zed";
     "lazygit" = ".config/lazygit";
+    "git/.gitconfig" = ".gitconfig";
   };
 
   mkHomeDotsLinks = lib.mapAttrs' (src: target: {
