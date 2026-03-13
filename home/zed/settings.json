@@ -1,0 +1,19 @@
+{
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font Propo",
+  "buffer_font_weight": 500,
+  "buffer_font_size": 14,
+  "buffer_line_height": { "custom": 1.8 },
+  "buffer_font_features": { "calt": false },
+
+  "ui_font_family": "JetBrainsMonoNL Nerd Font Propo",
+  "ui_font_weight": 500,
+  "ui_font_size": 16,
+
+  "terminal": {
+    "toolbar": { "breadcrumbs": false },
+    "line_height": { "custom": 1.5 },
+  },
+
+  "cursor_blink": false,
+  "hide_mouse": "on_typing",
+}
