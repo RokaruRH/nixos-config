@@ -12,6 +12,7 @@ let
     "fish/functions" = ".config/fish/functions";
 
     "zed" = ".config/zed";
+    "lazygit" = ".config/lazygit";
   };
 
   mkHomeDotsLinks = lib.mapAttrs' (src: target: {
