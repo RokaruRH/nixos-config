@@ -31,6 +31,7 @@
 
     blender
     godot
+    aseprite
 
     openssh
     devenv
