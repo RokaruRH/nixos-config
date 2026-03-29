@@ -11,6 +11,9 @@
     obs-studio
 
     neovim
+
+    pureref
+
     zed-editor
 
     alacritty
