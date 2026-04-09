@@ -7,8 +7,11 @@
     "flakes"
   ];
 
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader = {
+    limine.enable = true;
+    systemd-boot.enable = false;
+    efi.canTouchEfiVariables = true;
+  };
 
   security.rtkit.enable = true;
 
