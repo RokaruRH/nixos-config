@@ -1,6 +1,5 @@
 {
-  "vim_mode": true,
-
+  "vim_mode": false,
   "buffer_font_family": "JetBrainsMonoNL Nerd Font Propo",
   "buffer_font_weight": 500,
   "buffer_font_size": 14,
