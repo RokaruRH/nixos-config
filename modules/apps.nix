@@ -9,6 +9,7 @@
   environment.systemPackages = with pkgs; [
     google-chrome
     obs-studio
+    telegram-desktop
 
     neovim
 
@@ -35,6 +36,8 @@
     blender
     godot
     aseprite
+    obsidian
+    krita
 
     openssh
     devenv
