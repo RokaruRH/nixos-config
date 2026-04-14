@@ -38,6 +38,8 @@
     aseprite
     obsidian
     krita
+    unityhub
+    lmms
 
     openssh
     devenv
