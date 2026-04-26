@@ -38,13 +38,14 @@
     aseprite
     obsidian
     krita
-    unityhub
-    lmms
 
     openssh
     devenv
 
     nixd
     nixfmt
+
+    #music
+    lmms
   ];
 }
