@@ -47,5 +47,7 @@
 
     #music
     lmms
+    synfigstudio
+
   ];
 }
