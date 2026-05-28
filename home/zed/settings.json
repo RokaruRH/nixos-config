@@ -1,4 +1,9 @@
 {
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark"
+  },
   "project_panel": {
     "dock": "left"
   },
