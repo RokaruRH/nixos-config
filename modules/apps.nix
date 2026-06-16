@@ -14,7 +14,6 @@
     google-chrome
     obs-studio
     telegram-desktop
-    davinci-resolve-studio
 
     neovim
 
