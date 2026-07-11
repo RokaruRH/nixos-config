@@ -43,6 +43,7 @@
     aseprite
     obsidian
     krita
+    material-maker
 
     openssh
     devenv
@@ -50,7 +51,7 @@
     nixd
     nixfmt
 
-    #music
+    #musicq
     lmms
     synfigstudio
 
