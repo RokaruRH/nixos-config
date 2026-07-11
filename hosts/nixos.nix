@@ -8,6 +8,7 @@
     ../modules/gaming.nix
     ../modules/fonts.nix
     ../modules/apps.nix
+    ../modules/unreal.nix
 
     ./hardware-configuration.nix
   ];
