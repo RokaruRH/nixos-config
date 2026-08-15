@@ -1,0 +1,3 @@
+[
+  (import ./blender.nix)
+]
