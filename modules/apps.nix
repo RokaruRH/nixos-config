@@ -20,7 +20,9 @@
 
     pureref
 
+
     zed-editor
+    opencode
 
     alacritty
     zellij
@@ -39,11 +41,12 @@
     lazygit
 
     blender
+
     godot
-    aseprite
     obsidian
-    krita
-    material-maker
+    gimp
+    aseprite
+
 
     openssh
     devenv
@@ -51,9 +54,17 @@
     nixd
     nixfmt
 
-    #musicq
+    #music
     lmms
-    synfigstudio
+    # support both 32-bit and 64-bit applications
+    #wineWow64Packages.stable
+    # winetricks (all versions)
+    #winetricks
+    # native wayland support (unstable)
+    #wineWow64Packages.waylandFull
+
+    # support 64-bit only
+    #wine64
 
   ];
 }

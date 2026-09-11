@@ -8,6 +8,8 @@
     ../modules/gaming.nix
     ../modules/fonts.nix
     ../modules/apps.nix
+    ../modules/optfine.nix
+
 
     ./hardware-configuration.nix
   ];
