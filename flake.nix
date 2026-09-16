@@ -7,6 +7,10 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    armorpaint = {
+      url = "path:/home/rokaru/armorpaint";
+      flake = false;
+    };
   };
 
   outputs =

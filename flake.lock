@@ -1,5 +1,18 @@
 {
   "nodes": {
+    "armorpaint": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1789596703,
+        "narHash": "sha256-aGzdMHTSpU/tHbMyrUdeLiFyQQcbiLELnU10CQsipAM=",
+        "path": "/home/rokaru/armorpaint",
+        "type": "path"
+      },
+      "original": {
+        "path": "/home/rokaru/armorpaint",
+        "type": "path"
+      }
+    },
     "home-manager": {
       "inputs": {
         "nixpkgs": [
@@ -38,6 +51,7 @@
     },
     "root": {
       "inputs": {
+        "armorpaint": "armorpaint",
         "home-manager": "home-manager",
         "nixpkgs": "nixpkgs"
       }
