@@ -1,3 +1,4 @@
 [
-  (import ./blender.nix)
+  # (import ./blender.nix)
+  (import ./opencode.nix)
 ]
