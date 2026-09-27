@@ -9,7 +9,6 @@
     ../modules/fonts.nix
     ../modules/apps.nix
     ../modules/optfine.nix
-    ../modules/unreal.nix
     ../modules/armorpaint.nix
 
     ./hardware-configuration.nix

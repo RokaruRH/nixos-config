@@ -35,12 +35,18 @@
     eza
     fd
     bat
+    dust
+
+
+    rustup
+    gcc
 
     git
     delta
     lazygit
 
     blender
+
 
     obsidian
     gimp
