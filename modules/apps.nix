@@ -40,9 +40,8 @@
     bat
     dust
 
-
     rustup
-    gcc
+    python3
 
     git
     delta
