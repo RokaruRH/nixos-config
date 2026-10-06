@@ -41,7 +41,6 @@
     dust
 
     rustup
-    python3
 
     git
     delta
@@ -60,8 +59,5 @@
 
     nixd
     nixfmt
-    #music
-    lmms
-
   ];
 }

@@ -31,10 +31,10 @@ let
       gtk3
       gdk-pixbuf
       gsettings-desktop-schemas
-      xorg.libX11
-      xorg.libXi
-      xorg.libXcursor
-      xorg.libXrandr
+      libX11
+      libXi
+      libXcursor
+      libXrandr
       openssl
       vulkan-loader
       vulkan-headers
