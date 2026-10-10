@@ -22,11 +22,11 @@
 
 
     zed-editor
-    opencode
+    pkgs.opencode
 
     #Game Engine
-    godot
 
+    obsidian
     alacritty
     zellij
     starship
@@ -40,22 +40,16 @@
     bat
     dust
 
-    rustup
-
     git
     delta
     lazygit
 
     blender
 
-
-    obsidian
     gimp
     aseprite
 
-
     openssh
-    devenv
 
     nixd
     nixfmt
