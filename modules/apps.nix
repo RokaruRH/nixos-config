@@ -22,7 +22,7 @@
 
 
     zed-editor
-    pkgs.opencode
+    codex
 
     #Game Engine
 
