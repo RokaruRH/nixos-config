@@ -22,8 +22,8 @@
 
 
     zed-editor
-    codex
-
+    claude-code
+    opencode
     #Game Engine
 
     obsidian
