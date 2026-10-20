@@ -12,25 +12,39 @@
   ];
 
   environment.systemPackages = with pkgs; [
-    google-chrome
+
+  #video reactor
     obs-studio
+
+  # Art
+    pureref
+    blender
+    aseprite
+
+  #Soc Media
+    google-chrome
     telegram-desktop
 
-    neovim
+  #Game Engine
+    godot
+    #unityhub
 
-    pureref
-
-
+  #code editor
     zed-editor
-    claude-code
-    opencode
-    #Game Engine
-
     obsidian
-    alacritty
+    claude-code
+
+  #Git and remote safe
+    git
+    lazygit
+    openssh
+
+  #terminal
+   alacritty
+
+  #Other
     zellij
     starship
-
     fzf
     jq
     ripgrep
@@ -39,18 +53,7 @@
     fd
     bat
     dust
-
-    git
     delta
-    lazygit
-
-    blender
-
-    gimp
-    aseprite
-
-    openssh
-
     nixd
     nixfmt
   ];

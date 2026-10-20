@@ -66,4 +66,13 @@
       "z": "project_panel::CollapseAllEntries",
     },
   },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "shift-enter": [
+        "terminal::SendText",
+        "\u001b\r"
+      ]
+    }
+  },
 ]
