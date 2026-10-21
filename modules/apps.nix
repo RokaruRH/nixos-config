@@ -20,6 +20,7 @@
     pureref
     blender
     aseprite
+    blockbench
 
   #Soc Media
     google-chrome
