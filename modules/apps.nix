@@ -20,8 +20,9 @@
     pureref
     blender
     aseprite
+    gimp
     blockbench
-
+    lmms-full
   #Soc Media
     google-chrome
     telegram-desktop
