@@ -22,7 +22,7 @@
     aseprite
     gimp
     blockbench
-    lmms-full
+    lmms
   #Soc Media
     google-chrome
     telegram-desktop
