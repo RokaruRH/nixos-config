@@ -22,7 +22,8 @@
     aseprite
     gimp
     blockbench
-    lmms
+    plasticity
+
   #Soc Media
     google-chrome
     telegram-desktop
