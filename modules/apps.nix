@@ -11,6 +11,11 @@
     "ventoy-1.1.12"
   ];
 
+  programs.appimage = {
+    enable = true;
+    binfmt = true;
+  };
+
   environment.systemPackages = with pkgs; [
 
   #video reactor
@@ -39,6 +44,7 @@
   #Game Engine
     godot
     #unityhub
+
 
   #code editor
     zed-editor
