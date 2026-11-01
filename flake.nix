@@ -8,7 +8,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     armorpaint = {
-      url = "path:/home/rokaru/armorpaint";
+      url = "path:/home/rokaru/Apps/armorpaint";
       flake = false;
     };
   };
