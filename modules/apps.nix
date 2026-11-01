@@ -44,6 +44,7 @@
     zed-editor
     obsidian
     claude-code
+    python3 # Obsidian-плагин Claude Sidebar: терминал через python pty
 
   #Git and remote safe
     git
