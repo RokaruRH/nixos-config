@@ -14,6 +14,9 @@ let
     "zed" = ".config/zed";
     "lazygit" = ".config/lazygit";
     "git/.gitconfig" = ".gitconfig";
+
+    "claude/CLAUDE.md" = ".claude/CLAUDE.md";
+    "claude/agents" = ".claude/agents";
   };
 
   mkHomeDotsLinks = lib.mapAttrs' (src: target: {
