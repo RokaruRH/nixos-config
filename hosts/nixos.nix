@@ -10,6 +10,7 @@
     ../modules/apps.nix
     ../modules/optfine.nix
     ../modules/armorpaint.nix
+    ../modules/subcraft.nix
 
     ./hardware-configuration.nix
   ];
