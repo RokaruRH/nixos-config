@@ -26,23 +26,12 @@
     blender
     aseprite
     gimp
-    blockbench
-    # 26.2.0 из nixpkgs падает при старте (renderer SIGSEGV), 26.1.4 работает.
-    # Убрать override, когда в nixpkgs выйдет рабочая версия.
-    (plasticity.overrideAttrs (old: rec {
-      version = "26.1.4";
-      src = fetchurl {
-        url = "https://github.com/nkallen/plasticity/releases/download/v${version}/Plasticity-${version}-1.x86_64.rpm";
-        sha256 = "1ic885yff5iabknl8difjjqqaxirwzzfdrarwacgpbiwb794b855";
-      };
-    }))
 
   #Soc Media
     google-chrome
     telegram-desktop
 
   #Game Engine
-    godot
     #unityhub
 
 
@@ -54,6 +43,7 @@
 
   #Git and remote safe
     git
+    git-lfs # большие бинарные файлы (ассеты UE) в git
     lazygit
     openssh
 
