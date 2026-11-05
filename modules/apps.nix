@@ -39,6 +39,7 @@
   #code editor
     zed-editor
     agent-browser
+    devenv # dev-окружения проектов (Techno-Studio-Lite)
     obsidian
     claude-code
 
