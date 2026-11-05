@@ -38,6 +38,7 @@
 
   #code editor
     zed-editor
+    agent-browser
     obsidian
     claude-code
 

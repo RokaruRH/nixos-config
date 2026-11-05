@@ -16,6 +16,9 @@ let
     "git/.gitconfig" = ".gitconfig";
 
     "claude/CLAUDE.md" = ".claude/CLAUDE.md";
+    "Agents/skills/context7-mcp" = ".claude/skills/context7-mcp";
+    "Agents/skills/plan-task" = ".claude/skills/plan-task";
+    "Agents/skills/find-references" = ".claude/skills/find-references";
   };
 
   mkHomeDotsLinks = lib.mapAttrs' (src: target: {
