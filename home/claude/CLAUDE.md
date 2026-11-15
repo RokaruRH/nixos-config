@@ -79,4 +79,4 @@
 - Есть: git, python3, lazygit, rg, fd, jq, bat, eza, dust, delta, fzf, zellij, btop, nixd, nixfmt, alacritty, zed (`zeditor`, он же `$EDITOR`).
 - Нет: node, gh, lspci (pciutils), htop. Нужны разово → `nix shell nixpkgs#<pkg>`; нужны постоянно → предложи добавить в `modules/apps.nix`. Не `apt`/`pip install`/`npm -g`.
 - Прежде чем советовать утилиту, проверь `command -v`.
-- Windows-софт: Wine (wineWow64, префикс `~/.wine`), Steam + proton-ge.
+- Windows-софт: только через Steam + Proton (proton-ge, Experimental); системного Wine нет.
