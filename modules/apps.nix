@@ -16,6 +16,15 @@
     binfmt = true;
   };
 
+  # Политики Chrome → /etc/opt/chrome/policies/managed/extra.json
+  programs.chromium = {
+    enable = true;
+    extraOpts = {
+      # 1 = не скачивать локальную ИИ-модель (OptGuideOnDeviceModel, ~4 ГБ) и удалить уже скачанную
+      GenAILocalFoundationalModelSettings = 1;
+    };
+  };
+
   environment.systemPackages = with pkgs; [
 
   #video reactor
@@ -41,6 +50,7 @@
     agent-browser
     devenv # dev-окружения проектов (Techno-Studio-Lite)
     obsidian
+    glib # даёт `gio` — им Electron (Obsidian) переносит файлы в корзину
     claude-code
 
   #Git and remote safe
@@ -53,6 +63,7 @@
    alacritty
 
   #Other
+
     zellij
     starship
     fzf
