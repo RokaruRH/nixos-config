@@ -9,7 +9,7 @@
     ../modules/fonts.nix
     ../modules/apps.nix
     ../modules/optfine.nix
-    ../modules/armorpaint.nix
+    ../modules/github-apps.nix
 
     ./hardware-configuration.nix
   ];
