@@ -9,7 +9,6 @@
     ../modules/fonts.nix
     ../modules/apps.nix
     ../modules/optfine.nix
-    ../modules/github-apps.nix
 
     ./hardware-configuration.nix
   ];
